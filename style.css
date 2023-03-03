@@ -1,0 +1,73 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set body background and font styles */
+  body {
+    background-color: #343a40;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Set heading styles */
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  /* Set quote display styles */
+  #display {
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  /* Set quote display hover styles */
+  #display:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Set author display styles */
+  #Author {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  /* Set button styles */
+  #generate {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Set button hover styles */
+  #generate:hover {
+    background-color: #0062cc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
